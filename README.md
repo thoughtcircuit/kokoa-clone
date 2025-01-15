@@ -1,3 +1,3 @@
-#Kokoa clone
+# Kokoa clone
 
-learn HTML CSS
+learn HTML CSS is so exciting!!
