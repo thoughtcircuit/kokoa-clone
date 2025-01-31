@@ -1,0 +1,82 @@
+
+.user-component_name_addition i{
+    font-size: 20px;
+    color: #FF604E;
+}
+.user-component_message-info i{
+    font-size: 40px;
+}
+
+.more_icons-first_line{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 33px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.more_icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more_icons i{
+    font-size: 40px;
+}
+.more_icons-name{
+    padding-top: 15px;
+    font-size: 18px;
+    color: #5C5C5C;
+    font-weight: 450;
+}
+
+.more_icons-second_line{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 35px;
+    justify-content: space-between;
+}
+#more_icons-invisible1{
+    opacity: 0;
+}
+#more_icons-invisible2{
+    opacity: 0;
+}
+
+
+
+.more_suggestions{
+    padding: 0px 30px;
+    margin-top: 65px;
+}
+.more_suggestions-column{
+    border-top: 2px solid #EBEBEB;
+}
+.more_suggestions-column h4{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.more_suggestions--catagory{
+    display: flex;
+    padding-top: 25px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+.more_suggestions--catagory_img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.more_suggestions--catagory_icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more_suggestions--catagory_icons-name{
+    padding-top: 10px;
+    opacity: 0.6;
+}
+#more_suggestions--invisible{
+    opacity: 0;
+}

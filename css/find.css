@@ -1,0 +1,145 @@
+
+.find-components{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 45px;
+    padding-top: 20px;
+}
+.find-icons i{
+    font-size: 35px;
+    padding-bottom: 38px;
+}
+.find-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.find-text{
+    font-size: 18px;
+}
+.addbycontacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.open-chat,
+.recommend-friends{
+    padding: 0px 30px;
+}
+.recommend-friends__component{
+    border-top: 2px solid #EBEBEB;
+    height: 415px;
+}
+.recommend-friends__text{
+    color: #7F7F7F;
+    font-size: 18px;
+    display: flex;
+    padding-top: 30px;
+    font-weight: 500;
+}
+.recommend-friends__notice{
+    color: #7F7F7F;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 390px;
+}
+
+.open-chat--text{
+    font-size: 18px;
+}
+.open-chat__home{
+    color: #7F7F7F;
+    font-size: 18px;
+    padding-right: 7px;
+}
+
+.open-chat__channel-header{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #EBEBEB;
+    justify-content: space-between;
+    align-items: center;
+}
+.open-chat__channel-title{
+    font-size: 20px;
+    font-weight: 650;
+    padding-bottom: 13px;
+}
+.open-chat__channel-tags{
+    opacity: 0.6;
+    font-size: 17px;
+   
+}
+.open-chat__channel-info{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.open-chat__channel-leader{
+    height: 22px;
+    width: 22px;
+    border-radius: 9px;
+}
+.open-chat__channel-members{
+    padding-left: 10px;
+    opacity: 0.6;
+}
+.open-chat__channel-bar{
+    opacity: 0.6;
+}
+.open-chat__channel-condition{
+    color: #FF75CA;
+}
+
+.open-chat__channel-img{
+    position: relative;
+}
+.open-chat__channel-img_main{
+    height: 110px;
+    width: 110px;
+    border-radius: 15px;
+    
+}
+.open-chat__channel-img_heart{
+    height: 25px;
+    width: 65px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    left: 35px;
+    bottom: 10px;
+}
+@keyframes heartanimation{
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: red;    
+        transform: scale(2);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+.open-chat__channel-img_heart:hover i{
+    animation: heartanimation 1s linear infinite;
+}
+.open-chat__channel-img_heart i{
+    color: white;
+}
+.open-chat__channel-img_heart-number{
+    color: white;
+    padding-left: 5px;
+}

@@ -1,0 +1,248 @@
+
+
+.nav{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #F9F9FA;
+    padding: 20px 60px;
+    border-top: 1px solid #E4E4E4;
+    box-sizing: border-box;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link{
+    position: relative;
+}
+@keyframes notificationanimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: rotateY(180deg) translateY(-5px);
+    }
+    100%{
+        transform: none;
+    }
+}
+.nav__notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6229;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    animation: notificationanimation 1.5s ease-in-out infinite;
+}
+.nav__new{
+    background-color: #FF6229;
+    width: 7px;
+    height: 7px;
+    border-radius: 3.5px;
+    position: absolute;
+    left: 30px;
+}
+
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+.friends-header{
+    padding: 45px 25px 25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.friends-header__title{
+    font-size: 35px;
+    font-weight: 600;
+}
+.friends-header__icons span{
+    padding-left: 25px;
+}
+
+#friends-display-link {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: #FAFAFA;
+    align-items: center;
+    font-weight: 525;
+}
+#friends-display-link i{
+    opacity: 0.3;
+    padding: 0px 10px;    
+}
+
+.user-component{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+.user-component__column{
+    display: flex;
+    align-items: center;
+}
+.user-component__column:first-child{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.user-component__avater{
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 31px;
+}
+.user-component_name_addition{
+    padding-left: 20px;
+}
+.user-component__name{
+    
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: 550;
+}
+.user-component__addition{
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+.friends-screen__channel{
+    padding: 0px 25px
+}
+.friends-screen__channel-header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 2px solid #EBEBEB;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+.friends-screen__channel-header h3{
+    opacity: 0.6;
+}
+.friends-screen__channel-header i{
+    opacity: 0.6;
+}
+.friends-screen__channel-friends{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.friends-screen__channel-channel{
+    display: flex;
+    align-items: center;
+}
+.friends-screen__channel-avater{
+    height: 60px;
+    width: 60px;
+    border-radius: 23px;
+    object-fit: cover;
+}
+.friends-screen__channel-friends h5{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.summaried-info{
+    font-size: 23px;
+    opacity: 0.6;
+}
+/* chats-screen.css */
+.user-component_message-info{
+    padding-top: 30px;
+ }
+ .user-component_message-time{
+     opacity: 0.5;
+ }
+ .user-component_message_number{
+     margin-top: 10px;
+     margin-left: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #FF6229;
+     color: white;
+     width: 25px;
+     height: 25px;
+     border-radius: 12.5px;
+ }
+    
+ @keyframes hidesplashscreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+ }
+ #splash-screen{
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    background-color: #FAE100;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: hidesplashscreen 0.3s ease-in-out forwards;
+    animation-delay: 1s;
+ }
+ #splash-screen i{
+    font-size: 100px;
+ }
+ #splash-screen_text{
+    position: absolute;
+    bottom: 320px;
+    font-size: 45px;
+    color: #FAE100;
+ }
+
+ @keyframes appearbtnanimation{
+    from{
+        transform: translateY(80px);
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+ }
+ .nav__btn{
+    opacity: 0;
+    animation: appearbtnanimation 1s ease-in-out forwards;
+ }
+ .nav__btn:nth-child(2){
+    animation-delay: 0.2s;
+ }
+ .nav__btn:nth-child(3){
+    animation-delay: 0.5s;
+ }
+ .nav__btn:nth-child(4){
+    animation-delay: 0.7s;
+ }
+
+ @keyframes gearanimation{
+    0%{
+        transform: none;
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+ }
+ .friends-header__icons .fa-gear:hover{
+    animation: gearanimation 0.5s linear infinite;
+ }
+ 

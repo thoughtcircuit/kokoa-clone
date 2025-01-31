@@ -1,0 +1,56 @@
+
+.settings-header{
+    padding: 45px 25px 50px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.settings-header__icons{
+    font-size: 20px;
+}
+.settings-header__title{
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.settings-category{
+    padding-left: 30px;
+    padding-right: 25px;
+    
+}
+.settings-kokoa_category{
+    border-bottom: 2px solid #EBEBEB;
+    margin-bottom: 50px;
+}
+.settings-kokoa_category-icons{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+#settings-kokoa_category-icons1{
+    display: flex;
+    justify-content: space-between;
+}
+.settings-kokoa_category-name{
+    padding-left: 25px;
+}
+.settings-kokoa_version-info{
+    color: #A6A6A6;
+}
+.settings-kokoa_category-icons:nth-child(6),
+.settings-kokoa_category-icons:nth-child(5){
+    position: relative;
+}
+.settings-kokoa_category-new{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    height: 20px;
+    width: 20px;
+    background-color: #FF6229;
+    color: white;
+    border-radius: 10px;
+    left: 130px;
+    bottom: 47px;
+}
