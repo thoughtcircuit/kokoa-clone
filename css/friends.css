@@ -184,7 +184,7 @@
         opacity: 1;
     }
     to{
-        opacity: 0;
+        opacity: 0;     
         visibility: hidden;
     }
  }
@@ -203,11 +203,13 @@
  }
  #splash-screen i{
     font-size: 100px;
+    position: relative;
  }
  #splash-screen_text{
     position: absolute;
-    bottom: 320px;
-    font-size: 45px;
+    right: 10px;
+    top: 30px;
+    font-size: 30px;
     color: #FAE100;
  }
 
